@@ -10,6 +10,27 @@
         <p>
             Надеюсь, что получится наконец-то сдать это ДЗ, а пока лови котика:
         </p>
-        <img src="images/4.png"
+        <img src="images/4.png"/>
+        <form
+            action="https://fom.in.ua/echo" 
+            method="get"
+        >
+            <div>
+                <label for="catordog"><b>Кто больше нравится?:</b></label>
+                <select
+                    name="catordog"
+                    id="catordog"
+                >
+                    <option value="all">Все</option>
+                    <option value="cat">Котик</option>
+                    <option value="dog">Пёсик</option>
+                </select>
+            </div>
+            <br/>
+            <input 
+                type="submit"   
+                value="Отправить"
+            >
+        </form>
     </body>
 </html>
